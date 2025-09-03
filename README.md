@@ -18,16 +18,20 @@ Este projeto acadêmico foi desenvolvido como parte da disciplina de **Linguagem
 ## 🗂️ Estrutura do Projeto
 
 ```
-📁 projeto-academico-java/
-├── 📁 consulta-agendada/
-    ├── 📄 Data.java
-    ├── 📄 Hora.java
-    ├── 📄 ConsultaAgendada.java
-    ├── 📄 Main.java
-    📁 
-    📁
-├── 📄 .gitignore
-└── 📄 README.md
+📁 proj-exec01/
+├── 📄 Author.java
+└── 📄 Main.java
+📁 proj-exec-02/
+├── 📄 Author.java
+├── 📄 Book.java
+└── 📄 Main.java
+📁 proj-exec-03/
+├── 📄 Main.java
+├── 📄 Person.java
+├── 📄 Staff.java
+└── 📄 Student.java
+📄 .gitignore
+📄 README.md
 ```
 
 ## 🚀 Como Executar
@@ -39,17 +43,19 @@ git clone https://github.com/Stiven-Richardy/projeto-academico-java.git
 
 2. Acesse a pasta do projeto:
 ```bash
-cd projeto-consulta-agendada-java
+cd projeto-academico-java
 ```
 
-3. Acesse a principal do projeto:
+3. Acesse a pasta de cada exerício:
 ```bash
-cd consulta-agendada
+cd proj-exec-01
+cd proj-exec-02
+cd proj-exec-03
 ```
 
-4. Compile os arquivos:
+4. Compile o arquivo:
 ```bash
-javac Data.java Hora.java ConsultaAgendada.java Main.java
+javac Main.java
 ```
 
 5. Execute o programa:
